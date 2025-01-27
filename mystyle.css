@@ -1,0 +1,31 @@
+@media only screen and (min-width:500px) {
+  .for-lg {
+    width: 250px;
+  }
+}
+@media only screen and (min-width:650px)
+{
+  .hide-lg {
+    display: none;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .lg-wd {
+    width:100%;
+  }
+}
+.inter-bold {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: normal;
+}
+.inter-extrabold {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 1000px;
+  font-style: normal;
+}
+body {
+  background-image: url('/bg.png');
+}
